@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400&display=swap');
+
+
+.page {
+    flex-basis: 100%;
+    background-color: #a5a5a7;
+    background-position: 30% 30%;
+    background-image: url(../img/Layer_5.png), url(../img/Group_3_copy.png), url(../img/Layer_6.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    width: 686px;
+    height: 391px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    background-color: #111a28;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 100%;
+    margin: 25px;
+}
+
+.logo {
+    width: 65px;
+    height: 33px;
+    position: relative;
+}
+
+.intro {
+    display: inline-flex;
+}
+
+.intro__shoes {
+    width: 329px;
+    height: 159px;
+    margin-top: 69px;
+}
+
+.intro__content {
+    margin-left: 79px;
+    margin-top: 21px;
+}
+
+.name {
+    color: #e1e1e1;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.48px;
+    opacity: 0.55;
+}
+
+.name__text_small {
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    margin-top: 16px;
+    opacity: 0.54;
+}
+
+.intro__stars_img {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.activ {
+    fill: #f7bf16;
+}
+
+.intro__select_size {
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+    color: #e1e1e1;;
+}
+
+.intro__select_qti {
+    width: 69px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    background-color: #111a28;
+    opacity: 0.26;
+    color: #e1e1e1;
+}
+
+.intro__button_add {
+    width: 184px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #4c525a;
+    opacity: 0.26;
+    color: #e1e1e1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer__color {
+    margin-bottom: 21px;
+    margin-left: 178px;
+    display: inline-flex;
+  
+}
+
+.circle_black {
+    background: black;
+    border: 1px solid #7e838b;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+.circle_white {
+    background: white;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+.circle_red {
+    background: red;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+.circle_aqua {
+    background: aqua;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+}
+
