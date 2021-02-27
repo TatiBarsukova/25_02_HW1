@@ -1,15 +1,7 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 * {
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Noto Sans SC', sans-serif;
 }
 
@@ -17,36 +9,25 @@
 
 
 .page {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     background-color: #a5a5a7;
     background-position: 30% 30%;
     background-image: url(../img/Layer_5.png), url(../img/Group_3_copy.png), url(../img/Layer_6.png);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin: 20%;
     font-family: 'Noto Sans SC', sans-serif;
 }
 
 .conteiner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 686px;
     height: 391px;
-    -webkit-box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
-            box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
     border-radius: 10px;
     background-color: #111a28;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .section {
@@ -59,10 +40,9 @@
     height: 33px;
     position: relative;
 }
-
+ 
+/* Intro */
 .intro {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
 }
 
@@ -112,7 +92,8 @@
     border: 1px solid #ffffff;
     background-color: #111a28;
     opacity: 0.26;
-    color: #e1e1e1;;
+    color: #e1e1e1;
+    position: relative;
 }
 
 .intro__select_qti {
@@ -138,8 +119,6 @@
 .footer__color {
     margin-bottom: 21px;
     margin-left: 178px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
   
 }
@@ -175,3 +154,4 @@
     height: 12px;
     width: 12px;
 }
+
